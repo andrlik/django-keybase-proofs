@@ -39,7 +39,7 @@ setup(
     ],
     dependency_links = [
         "https://github.com/andrlik/django-jsonview/tarball/master#egg=jsonview-1.3.2rc"
-    ]
+    ],
     cmdclass={'test': PyTest},
     include_package_data=True,
     classifiers=[
