@@ -36,8 +36,10 @@ setup(
     install_requires=[
         'py2casefold>=1.0.1,<1.1',
         'requests>=2.20.0,<2.30.0',
-        'django-jsonview>=1.2.0,<1.3.0',
     ],
+    dependency_links = [
+        "https://github.com/andrlik/django-jsonview/tarball/master#egg=jsonview-1.3.2rc"
+    ]
     cmdclass={'test': PyTest},
     include_package_data=True,
     classifiers=[
